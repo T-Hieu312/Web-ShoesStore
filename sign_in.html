@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang Đăng Ký</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-box">
+    <h2>Đăng Ký</h2>
+    <form>
+      <input type="text" placeholder="Tên đăng nhập" required>
+      <input type="email" placeholder="Email" required>
+      <input type="tel" placeholder="Số điện thoại" pattern="[0-9]{10,11}" required>
+      <input type="password" placeholder="Mật khẩu" required minlength="6">
+      <input type="password" placeholder="Xác nhận mật khẩu" required minlength="6">
+    </form>
+    <div class="checkbox">
+        <input type="checkbox" required> Tôi đồng ý với các <a href="#">Điều khoản và Điều kiện</a>
+    </div>
+    <button type="submit">Đăng ký</button>
+    <p>Đã có tài khoản? <a href="login.html">Đăng nhập</a></p>
+  </div>
+</body>
+</html>
